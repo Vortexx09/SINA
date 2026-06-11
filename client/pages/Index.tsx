@@ -306,6 +306,66 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Infographic Section */}
+      <section className = "py-24 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-5xl font-bold mb-16 text-emerald-900">  
+            Infografías Sistema Nacional Ambiental – SINA
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center shadow-lg">
+            <div className="rounded-2x1 overflow-hidden border-2 border-emerald-300">
+              <img
+                src="/images/esquema-sina.jpg"
+                alt="Esquema del Sistema Nacional Ambiental"
+                className="w-full h-auto"
+              />
+
+              <div className="p-6 bg-gradient-to-t from-emerald-50 to-white">
+                <h3 className="text-slate-700">
+                  Esquema del Sistema Nacional Ambiental
+                </h3>
+              </div>
+            </div>
+
+            <div className="rounded-2x1 overflow-hidden border-2 border-emerald-300">
+              <img
+                src="/images/estructura-sina.png"
+                alt="Estructura del Sistema Nacional Ambiental"
+                className="w-full h-auto"
+              />
+
+              <div className="p-6 bg-gradient-to-t from-emerald-50 to-white">
+                <h3 className="text-slate-700">
+                  Estructura del Sistema Nacional Ambiental
+                </h3>
+              </div>
+            </div> 
+          </div>  
+
+        </div> 
+      </section>
+
+      {/* Video Section */}
+      <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-green-50 to-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-5xl font-bold mb-16 text-emerald-900">
+            Conoce Más Sobre el SINA
+          </h2>
+
+          <div className="aspect-video rounded-2xl overflow-hidden shadow-xl">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/GkZlYDxp_WE"
+              title="Video explicativo del SINA"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>  
+        </div>
+      </section>
+
       {/* How SINA Works Section */}
       <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
